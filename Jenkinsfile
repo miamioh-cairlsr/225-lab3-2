@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/cairlsr'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/miamioh-cairlsr/225-lab3-2.git'                   // <------change this
-        KUBECONFIG = credentials('cairlsr-225-3.2')                                             // <------change this
+        KUBECONFIG = credentials('cairlsr-225')                                             // <------change this
     }
 
     stages {
